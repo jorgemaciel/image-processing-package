@@ -13,7 +13,7 @@ setup(
     author_email='jorge.maciel.jr@gmail.com',
     description='App for Image processing',
     long_description=page_description,
-    long_description_content_type='text/markdonw',
+    long_description_content_type=['text/plain', 'text/markdown', 'text/x-rst'],
     url='https://github.com/jorgemaciel/image-processing-package',
     packages=find_packages(),
     install_requires=requirements,
